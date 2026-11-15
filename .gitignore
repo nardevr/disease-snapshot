@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+out/
+.bash_profile
+.profile
+.zprofile
+.zshrc
+.ripgreprc
+.idea
+.vscode
