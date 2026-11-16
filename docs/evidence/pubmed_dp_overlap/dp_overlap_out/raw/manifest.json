@@ -1,0 +1,1432 @@
+[
+  {
+    "file": "001_pubmed_q1_2016_2017.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2017[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:21Z"
+  },
+  {
+    "file": "002_pubmed_q1_2016_2018.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2018[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:21Z"
+  },
+  {
+    "file": "003_pubmed_q1_2016_2019.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2019[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:22Z"
+  },
+  {
+    "file": "004_pubmed_q1_2016_2020.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2020[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:23Z"
+  },
+  {
+    "file": "005_pubmed_q1_2016_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:24Z"
+  },
+  {
+    "file": "006_pubmed_q1_2016_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:24Z"
+  },
+  {
+    "file": "007_pubmed_q1_2016_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:25Z"
+  },
+  {
+    "file": "008_pubmed_q1_2016_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:26Z"
+  },
+  {
+    "file": "009_pubmed_q1_2016_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:26Z"
+  },
+  {
+    "file": "010_pubmed_q1_2016_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:27Z"
+  },
+  {
+    "file": "011_pubmed_q1_2017_2018.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2017[dp] AND 2018[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:28Z"
+  },
+  {
+    "file": "012_pubmed_q1_2017_2019.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2017[dp] AND 2019[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:29Z"
+  },
+  {
+    "file": "013_pubmed_q1_2017_2020.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2017[dp] AND 2020[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:29Z"
+  },
+  {
+    "file": "014_pubmed_q1_2017_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2017[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:31Z"
+  },
+  {
+    "file": "015_pubmed_q1_2017_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2017[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:32Z"
+  },
+  {
+    "file": "016_pubmed_q1_2017_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2017[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:32Z"
+  },
+  {
+    "file": "017_pubmed_q1_2017_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2017[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:33Z"
+  },
+  {
+    "file": "018_pubmed_q1_2017_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2017[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:34Z"
+  },
+  {
+    "file": "019_pubmed_q1_2017_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2017[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:35Z"
+  },
+  {
+    "file": "020_pubmed_q1_2018_2019.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2018[dp] AND 2019[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:36Z"
+  },
+  {
+    "file": "021_pubmed_q1_2018_2020.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2018[dp] AND 2020[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:36Z"
+  },
+  {
+    "file": "022_pubmed_q1_2018_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2018[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:37Z"
+  },
+  {
+    "file": "023_pubmed_q1_2018_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2018[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:38Z"
+  },
+  {
+    "file": "024_pubmed_q1_2018_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2018[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:39Z"
+  },
+  {
+    "file": "025_pubmed_q1_2018_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2018[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:40Z"
+  },
+  {
+    "file": "026_pubmed_q1_2018_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2018[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:42Z"
+  },
+  {
+    "file": "027_pubmed_q1_2018_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2018[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:42Z"
+  },
+  {
+    "file": "028_pubmed_q1_2019_2020.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2019[dp] AND 2020[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:43Z"
+  },
+  {
+    "file": "029_pubmed_q1_2019_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2019[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:44Z"
+  },
+  {
+    "file": "030_pubmed_q1_2019_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2019[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:45Z"
+  },
+  {
+    "file": "031_pubmed_q1_2019_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2019[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:46Z"
+  },
+  {
+    "file": "032_pubmed_q1_2019_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2019[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:46Z"
+  },
+  {
+    "file": "033_pubmed_q1_2019_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2019[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:48Z"
+  },
+  {
+    "file": "034_pubmed_q1_2019_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2019[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:48Z"
+  },
+  {
+    "file": "035_pubmed_q1_2020_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2020[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:50Z"
+  },
+  {
+    "file": "036_pubmed_q1_2020_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2020[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:51Z"
+  },
+  {
+    "file": "037_pubmed_q1_2020_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2020[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:52Z"
+  },
+  {
+    "file": "038_pubmed_q1_2020_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2020[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:53Z"
+  },
+  {
+    "file": "039_pubmed_q1_2020_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2020[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:54Z"
+  },
+  {
+    "file": "040_pubmed_q1_2020_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2020[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:55Z"
+  },
+  {
+    "file": "041_pubmed_q1_2021_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2021[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:55Z"
+  },
+  {
+    "file": "042_pubmed_q1_2021_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2021[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:56Z"
+  },
+  {
+    "file": "043_pubmed_q1_2021_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2021[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:57Z"
+  },
+  {
+    "file": "044_pubmed_q1_2021_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2021[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:57Z"
+  },
+  {
+    "file": "045_pubmed_q1_2021_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2021[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:58Z"
+  },
+  {
+    "file": "046_pubmed_q1_2022_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2022[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:32:59Z"
+  },
+  {
+    "file": "047_pubmed_q1_2022_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2022[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:00Z"
+  },
+  {
+    "file": "048_pubmed_q1_2022_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2022[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:00Z"
+  },
+  {
+    "file": "049_pubmed_q1_2022_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2022[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:01Z"
+  },
+  {
+    "file": "050_pubmed_q1_2023_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2023[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:02Z"
+  },
+  {
+    "file": "051_pubmed_q1_2023_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2023[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:03Z"
+  },
+  {
+    "file": "052_pubmed_q1_2023_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2023[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:04Z"
+  },
+  {
+    "file": "053_pubmed_q1_2024_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2024[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:06Z"
+  },
+  {
+    "file": "054_pubmed_q1_2024_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2024[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:06Z"
+  },
+  {
+    "file": "055_pubmed_q1_2025_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2025[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:07Z"
+  },
+  {
+    "file": "056_pubmed_q2_2016_2017.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2017[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:08Z"
+  },
+  {
+    "file": "057_pubmed_q2_2016_2018.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2018[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:09Z"
+  },
+  {
+    "file": "058_pubmed_q2_2016_2019.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2019[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:10Z"
+  },
+  {
+    "file": "059_pubmed_q2_2016_2020.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2020[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:11Z"
+  },
+  {
+    "file": "060_pubmed_q2_2016_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:13Z"
+  },
+  {
+    "file": "061_pubmed_q2_2016_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:13Z"
+  },
+  {
+    "file": "062_pubmed_q2_2016_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:14Z"
+  },
+  {
+    "file": "063_pubmed_q2_2016_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:15Z"
+  },
+  {
+    "file": "064_pubmed_q2_2016_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:15Z"
+  },
+  {
+    "file": "065_pubmed_q2_2016_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2016[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:16Z"
+  },
+  {
+    "file": "066_pubmed_q2_2017_2018.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2017[dp] AND 2018[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:17Z"
+  },
+  {
+    "file": "067_pubmed_q2_2017_2019.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2017[dp] AND 2019[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:18Z"
+  },
+  {
+    "file": "068_pubmed_q2_2017_2020.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2017[dp] AND 2020[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:19Z"
+  },
+  {
+    "file": "069_pubmed_q2_2017_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2017[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:20Z"
+  },
+  {
+    "file": "070_pubmed_q2_2017_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2017[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:21Z"
+  },
+  {
+    "file": "071_pubmed_q2_2017_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2017[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:21Z"
+  },
+  {
+    "file": "072_pubmed_q2_2017_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2017[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:23Z"
+  },
+  {
+    "file": "073_pubmed_q2_2017_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2017[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:23Z"
+  },
+  {
+    "file": "074_pubmed_q2_2017_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2017[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:24Z"
+  },
+  {
+    "file": "075_pubmed_q2_2018_2019.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2018[dp] AND 2019[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:25Z"
+  },
+  {
+    "file": "076_pubmed_q2_2018_2020.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2018[dp] AND 2020[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:25Z"
+  },
+  {
+    "file": "077_pubmed_q2_2018_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2018[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:26Z"
+  },
+  {
+    "file": "078_pubmed_q2_2018_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2018[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:27Z"
+  },
+  {
+    "file": "079_pubmed_q2_2018_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2018[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:27Z"
+  },
+  {
+    "file": "080_pubmed_q2_2018_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2018[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:28Z"
+  },
+  {
+    "file": "081_pubmed_q2_2018_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2018[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:29Z"
+  },
+  {
+    "file": "082_pubmed_q2_2018_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2018[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:30Z"
+  },
+  {
+    "file": "083_pubmed_q2_2019_2020.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2019[dp] AND 2020[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:31Z"
+  },
+  {
+    "file": "084_pubmed_q2_2019_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2019[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:32Z"
+  },
+  {
+    "file": "085_pubmed_q2_2019_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2019[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:33Z"
+  },
+  {
+    "file": "086_pubmed_q2_2019_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2019[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:34Z"
+  },
+  {
+    "file": "087_pubmed_q2_2019_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2019[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:35Z"
+  },
+  {
+    "file": "088_pubmed_q2_2019_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2019[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:37Z"
+  },
+  {
+    "file": "089_pubmed_q2_2019_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2019[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:38Z"
+  },
+  {
+    "file": "090_pubmed_q2_2020_2021.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2020[dp] AND 2021[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:39Z"
+  },
+  {
+    "file": "091_pubmed_q2_2020_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2020[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:40Z"
+  },
+  {
+    "file": "092_pubmed_q2_2020_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2020[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:40Z"
+  },
+  {
+    "file": "093_pubmed_q2_2020_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2020[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:41Z"
+  },
+  {
+    "file": "094_pubmed_q2_2020_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2020[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:42Z"
+  },
+  {
+    "file": "095_pubmed_q2_2020_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2020[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:43Z"
+  },
+  {
+    "file": "096_pubmed_q2_2021_2022.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2021[dp] AND 2022[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:44Z"
+  },
+  {
+    "file": "097_pubmed_q2_2021_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2021[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:44Z"
+  },
+  {
+    "file": "098_pubmed_q2_2021_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2021[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:45Z"
+  },
+  {
+    "file": "099_pubmed_q2_2021_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2021[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:46Z"
+  },
+  {
+    "file": "100_pubmed_q2_2021_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2021[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:47Z"
+  },
+  {
+    "file": "101_pubmed_q2_2022_2023.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2022[dp] AND 2023[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:48Z"
+  },
+  {
+    "file": "102_pubmed_q2_2022_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2022[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:49Z"
+  },
+  {
+    "file": "103_pubmed_q2_2022_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2022[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:50Z"
+  },
+  {
+    "file": "104_pubmed_q2_2022_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2022[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:51Z"
+  },
+  {
+    "file": "105_pubmed_q2_2023_2024.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2023[dp] AND 2024[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:52Z"
+  },
+  {
+    "file": "106_pubmed_q2_2023_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2023[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:53Z"
+  },
+  {
+    "file": "107_pubmed_q2_2023_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2023[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:54Z"
+  },
+  {
+    "file": "108_pubmed_q2_2024_2025.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2024[dp] AND 2025[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:55Z"
+  },
+  {
+    "file": "109_pubmed_q2_2024_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2024[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:56Z"
+  },
+  {
+    "file": "110_pubmed_q2_2025_2026.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract] AND LMNA[Title/Abstract]) AND 2025[dp] AND 2026[dp]",
+      "retmax": 0
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T03:33:57Z"
+  }
+]

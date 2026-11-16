@@ -1,0 +1,27 @@
+[
+  {
+    "file": "001_pubmed_both_2016_2017_ids.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "term": "(\"dilated cardiomyopathy\"[Title/Abstract]) AND 2016[dp] AND 2017[dp]",
+      "retmax": 5
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T04:19:29Z"
+  },
+  {
+    "file": "002_pubmed_both_2016_2017_summary.json.gz",
+    "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esummary.fcgi",
+    "params": {
+      "db": "pubmed",
+      "retmode": "json",
+      "tool": "disease-snapshot",
+      "id": "28373784,28318762,28289596,29759522,28148779"
+    },
+    "payload": "",
+    "fetched_at": "2026-11-16T04:19:30Z"
+  }
+]

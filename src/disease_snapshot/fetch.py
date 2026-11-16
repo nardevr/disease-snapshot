@@ -18,6 +18,18 @@ CT_URL = "https://clinicaltrials.gov/api/v2/studies"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 OT_URL = "https://api.platform.opentargets.org/api/v4/graphql"
 USER_AGENT = "disease-snapshot/0.1 (+https://github.com/nardevr/disease-snapshot)"
+# Only the fields analyse.study_row reads. Keeps contact names, emails and phones out of saved files.
+CT_FIELDS = [
+    "protocolSection.identificationModule.nctId",
+    "protocolSection.identificationModule.briefTitle",
+    "protocolSection.statusModule.overallStatus",
+    "protocolSection.statusModule.startDateStruct.date",
+    "protocolSection.designModule.studyType",
+    "protocolSection.designModule.phases",
+    "protocolSection.sponsorCollaboratorsModule.leadSponsor.name",
+    "protocolSection.sponsorCollaboratorsModule.leadSponsor.class",
+    "protocolSection.armsInterventionsModule.interventions.name",
+]
 CT_PAGE_SIZE = 1000
 CT_MAX_PAGES = 10
 PUBMED_MIN_INTERVAL = 0.34  # seconds, keeps us under 3 requests per second
@@ -78,7 +90,8 @@ class Client:
 
     # ---- ClinicalTrials.gov -------------------------------------------------
     def ct_studies(self, cond: str, term: str | None, label: str) -> tuple[list[dict], int | None]:
-        params = {"query.cond": cond, "pageSize": CT_PAGE_SIZE, "countTotal": "true", "format": "json"}
+        params = {"query.cond": cond, "fields": ",".join(CT_FIELDS), "pageSize": CT_PAGE_SIZE,
+                  "countTotal": "true", "format": "json"}
         if term:
             params["query.term"] = term
         studies: list[dict] = []

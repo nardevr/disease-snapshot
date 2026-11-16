@@ -38,7 +38,7 @@ See [`examples/dcm_lmna/report.md`](examples/dcm_lmna/report.md): dilated cardio
 
 - Every count depends on the query wording printed in the report. A different synonym or gene spelling gives different numbers.
 - ClinicalTrials.gov lists registered studies. It is not a complete development pipeline, and statuses depend on sponsors keeping records up to date.
-- PubMed counts records. Records with incomplete dates can fall outside a year, which the report's cross-check line will show.
+- PubMed counts records. A record whose print and electronic publication dates fall in different years counts in both years, so the yearly counts can add up to more than the whole-range count. The report's cross-check line shows the difference.
 - Open Targets association scores weigh the evidence for a link between a target and a disease. They do not say whether any drug works.
 - The report is for orientation. It is not medical advice or investment advice.
 

@@ -6,8 +6,8 @@ import requests
 
 from disease_snapshot import analyse as A
 from disease_snapshot import cli
-from disease_snapshot.fetch import Client, FetchError, Recorder
-from disease_snapshot.render import render
+from disease_snapshot.fetch import CT_FIELDS, Client, FetchError, Recorder
+from disease_snapshot.render import _pubmed_check, render
 
 from conftest import DISEASE_PAGE1, DISEASE_PAGE2, FakeResponse, FakeSession, load, study
 
@@ -80,6 +80,21 @@ def test_ct_paging_and_raw_saves(tmp_path):
     assert manifest[1]["params"]["pageToken"] == "tok2"
     with gzip.open(tmp_path / "raw" / manifest[0]["file"], "rt") as fh:
         assert json.load(fh)["totalCount"] == 3
+
+
+def test_ct_requests_only_parsed_fields(tmp_path):
+    s = FakeSession()
+    c = client(tmp_path, s)
+    c.ct_studies("dilated cardiomyopathy", "LMNA", "gene")
+    c.ct_studies("dilated cardiomyopathy", None, "disease")  # two pages
+    ct_calls = [call for call in s.calls if "clinicaltrials.gov" in call[1]]
+    assert len(ct_calls) == 3
+    expected = ",".join(CT_FIELDS)
+    assert all(call[2]["fields"] == expected for call in ct_calls)
+    assert "protocolSection.designModule.studyType" in CT_FIELDS
+    assert not any("contacts" in f.lower() or "officials" in f.lower() for f in CT_FIELDS)
+    manifest = json.loads((tmp_path / "raw" / "manifest.json").read_text())
+    assert all(m["params"]["fields"] == expected for m in manifest)
 
 
 def test_pubmed_email_never_written_to_manifest(tmp_path, monkeypatch):
@@ -165,6 +180,32 @@ def test_end_to_end_report(tmp_path):
     assert "PMID 99000001" in md
     assert "## Limitations" in md and "not medical advice or investment advice" in md
     assert "Section failed" not in md
+
+
+def test_study_type_counts_rendered(tmp_path):
+    _, md, _ = run(tmp_path)
+    trials = md.split("## 2.")[0]
+    assert "**By study type**" in trials
+    assert "| Study type | Studies |" in trials
+    assert "| INTERVENTIONAL | 2 |" in trials and "| OBSERVATIONAL | 1 |" in trials
+
+
+def test_pubmed_check_equal_is_match():
+    assert _pubmed_check("q", 300, 300) == "Cross-check (q): sum of yearly counts 300, count for the whole range 300. match."
+
+
+def test_pubmed_check_sum_above_range_is_consistent_with_gap():
+    line = _pubmed_check("q", 10298, 9162)
+    assert line.startswith("Cross-check (q): sum of yearly counts 10298, count for the whole range 9162. ")
+    assert ("consistent: yearly counts exceed the range by 1136, as expected when a record's print and "
+            "electronic publication dates fall in different years.") in line
+    assert "MISMATCH" not in line
+
+
+def test_pubmed_check_sum_below_range_is_mismatch():
+    line = _pubmed_check("q", 21, 22)
+    assert line.endswith("count for the whole range 22. **MISMATCH**.")
+    assert "consistent" not in line
 
 
 def test_efo_override_skips_search(tmp_path):

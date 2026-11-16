@@ -29,6 +29,19 @@ def _check(label: str, a, b, a_name: str, b_name: str) -> str:
     return f"Cross-check ({label}): {a_name} {a}, {b_name} {b}. {status}."
 
 
+def _pubmed_check(label: str, yearly_sum: int, range_total: int) -> str:
+    # The range count is the union of the yearly sets, so the yearly sum can only be equal or larger.
+    if yearly_sum == range_total:
+        status = "match"
+    elif yearly_sum > range_total:
+        status = (f"consistent: yearly counts exceed the range by {yearly_sum - range_total}, as expected when a "
+                  "record's print and electronic publication dates fall in different years")
+    else:
+        status = "**MISMATCH**"
+    return (f"Cross-check ({label}): sum of yearly counts {yearly_sum}, "
+            f"count for the whole range {range_total}. {status}.")
+
+
 def _failed(reason: str) -> list[str]:
     return [f"> **Section failed:** {_md(reason)}", ""]
 
@@ -54,6 +67,7 @@ def trials_section(sec: dict) -> list[str]:
             "(recruiting, not yet recruiting, active not recruiting or enrolling by invitation).", ""]
     out += _counter_table("By overall status", s["by_status"], "Status")
     out += _counter_table("By phase (NA = not applicable or not given)", s["by_phase"], "Phase")
+    out += _counter_table("By study type", s["by_type"], "Study type")
     out += _counter_table("By lead sponsor class", s["by_sponsor_class"], "Sponsor class")
     if g:
         gs = g["summary"]
@@ -77,8 +91,7 @@ def pubmed_section(sec: dict) -> list[str]:
             f"The current year is partial.", ""]
     for q in sec["queries"]:
         out += [f"Query: `{_md(q['term'])}`", "",
-                _check(q["label"], sum(q["by_year"].values()), q["range_total"], "sum of yearly counts",
-                       "count for the whole range"), ""]
+                _pubmed_check(q["label"], sum(q["by_year"].values()), q["range_total"]), ""]
     labels = [q["label"] for q in sec["queries"]]
     out += ["| Year | " + " | ".join(labels) + " |", "|---|" + "---:|" * len(labels)]
     years = sorted(sec["queries"][0]["by_year"])
@@ -132,7 +145,7 @@ LIMITATIONS = """## Limitations
 
 - Every count depends on the query wording shown above. A different synonym or gene spelling gives different numbers.
 - ClinicalTrials.gov lists registered studies. It is not a complete development pipeline, and statuses depend on sponsors updating their records.
-- PubMed counts records, not distinct findings. Records with incomplete dates can fall outside a year.
+- PubMed counts records, not distinct findings. A record whose print and electronic publication dates fall in different years counts in both years, so the yearly counts can add up to more than the whole-range count.
 - Open Targets association scores weigh evidence for a link between a target and a disease. They say nothing about whether a drug works. Drug stages come from the Open Targets data release shown above and can lag the registries.
 - This report is for orientation. It is not medical advice or investment advice.
 
