@@ -178,7 +178,7 @@ Cross-check (drugs): reported count 29, rows fetched 29. match.
 
 - Every count depends on the query wording shown above. A different synonym or gene spelling gives different numbers.
 - ClinicalTrials.gov lists registered studies. It is not a complete development pipeline, and statuses depend on sponsors updating their records.
-- PubMed counts records, not distinct findings. A record whose print and electronic publication dates fall in different years counts in both years, so the yearly counts can add up to more than the whole-range count.
+- PubMed counts records, not distinct findings. A record whose print and electronic publication dates fall in different years can count in both years, so the yearly counts can add up to more than the whole-range count.
 - Open Targets association scores weigh evidence for a link between a target and a disease. They say nothing about whether a drug works. Drug stages come from the Open Targets data release shown above and can lag the registries.
 - This report is for orientation. It is not medical advice or investment advice.
 

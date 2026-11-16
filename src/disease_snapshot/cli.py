@@ -71,7 +71,7 @@ def build_ot(c: Client, disease: str, efo: str | None) -> dict:
 
 
 def main(argv: list[str] | None = None, client_factory=None) -> int:
-    p = argparse.ArgumentParser(prog="disease_snapshot", description="One-page public-data snapshot of a disease.")
+    p = argparse.ArgumentParser(prog="disease_snapshot", description="Short public-data snapshot of a disease.")
     p.add_argument("--disease", required=True, help='e.g. "dilated cardiomyopathy"')
     p.add_argument("--gene", help="optional gene symbol, e.g. LMNA")
     p.add_argument("--since", type=int, default=dt.date.today().year - 10, help="first publication year")
