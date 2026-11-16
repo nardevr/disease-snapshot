@@ -13,7 +13,7 @@ Every number comes from code, from saved API responses. There is no language mod
 Python 3.10 or later. Continuous integration tests 3.10 and 3.12.
 
 ```bash
-python -m venv .venv && . .venv/bin/activate
+python3 -m venv .venv && . .venv/bin/activate
 pip install -r requirements.txt
 pytest -q                      # offline, no network needed
 python snapshot.py --disease "dilated cardiomyopathy" --gene LMNA --since 2016 --out examples/dcm_lmna
